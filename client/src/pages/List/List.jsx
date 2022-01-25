@@ -34,9 +34,11 @@ const List = () => {
                         <ArrowBackIcon className={classes.collapse} />
                     </div>
                     <div className={classes.items}>
-                        {data.map((item, i) => {
-                            return <HorizanItem key={i} post={item} />;
-                        })}
+                        <HorizanItem />
+                        <HorizanItem />
+                        <HorizanItem />
+                        <HorizanItem />
+                        <HorizanItem />
                     </div>
                 </div>
             </div>

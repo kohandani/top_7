@@ -46,18 +46,7 @@ const HorizanItem = ({ post }) => {
         value: PropTypes.number.isRequired,
     };
 
-    const {
-        name,
-        category,
-        desc,
-        image_Bg,
-        little_Images,
-        phone,
-        address,
-        region,
-        website,
-        workingYears,
-    } = post;
+    
     const classes = useStyle();
     return (
         <div className={classes.mainContainer}>
